@@ -1,0 +1,13 @@
+:root {
+    --primary: rgb(149, 8, 200);
+}
+section:nth-of-type(1) {
+    --grid-size: var(--min-viewport);
+}
+
+
+section:last-of-type {
+    background-color: green;
+    justify-content: center;
+    text-align: center;
+}
